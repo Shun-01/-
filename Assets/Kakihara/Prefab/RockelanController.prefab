@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2398980527235323228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 888940739432740066}
+  - component: {fileID: 9141968296491789064}
+  m_Layer: 0
+  m_Name: RockelanController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &888940739432740066
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2398980527235323228}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.09824229, y: 0.19764636, z: -0.019068774}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9141968296491789064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2398980527235323228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b63bfcc9e3389dd449b5765824579ea5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _reticle: {fileID: 2800000, guid: 390b0867658d0e048a4f50a78fcf0e42, type: 3}
+  _remainingAmmo: 0
+  _maxAmmo: 7
+  _missile: {fileID: 0}
+  _launchPos: {fileID: 0}
+  _canvas: {fileID: 0}
+  _ammoPrefab: {fileID: 4858365188895464109, guid: 890529cdc620d9444becde08e34ee25f, type: 3}
+  _ammoUIPanel: {fileID: 0}
+  _reloadUIPanel: {fileID: 0}
+  _noAmmoText: {fileID: 0}
+  _reloadSlider: {fileID: 0}
+  _audioSource: {fileID: 0}
+  _shotSound: {fileID: 8300000, guid: 44cd22ef5e0c79a45b3eff24db8cff58, type: 3}
+  _reloadSound: {fileID: 8300000, guid: 1b93ba3646336ee4dac393aa1396489e, type: 3}
+  _noAmmoSound: {fileID: 8300000, guid: f5d4899e37b913542ad4826da9ae7e60, type: 3}
